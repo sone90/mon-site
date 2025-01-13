@@ -1,0 +1,124 @@
+/* Réinitialisation des marges et des espacements par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* En-tête et navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections principales */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #2905cc;
+}
+
+/* Section Accueil */
+#accueil {
+    text-align: center;
+    background-image: url('hotel-image.jpeg'); /* Mettez ici le chemin relatif vers l'image */
+    background-size: cover; /* L'image couvre toute la section */
+    background-position: center; /* L'image est centré */
+    color: #fff;
+    padding: 80px 20px;
+    height: 500px;
+    
+}
+
+#accueil h1 {
+    font-size: 3em;
+}
+
+/* Section Services */
+#services {
+    background-color: #fce9e8;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #e8f4fc;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #444;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
